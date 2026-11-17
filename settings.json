@@ -1,1 +1,96 @@
-
+{
+"name":"Afk bot",
+"bot-account":{
+ "unsername":"kingbot",
+  "password":"",
+  "type":"offline"
+},
+  "server":{
+   "ip":"huntersonlysmp.aternos.me",
+    "port":64978,
+    "version":"1.21.1"
+  },
+  "position":{
+    "enabled":true
+    "x":0,
+    "y":
+    "y":100,
+    "z":0
+  },
+  "utils":{
+    "auto-auth":{
+      "enabled":true,
+      "password":"perzuu"
+    },
+    "anti-afk":{
+    "enabled":true,
+      "sneak":true
+    },
+    "chat-messages":{
+      "enabled":true,
+      "repeat":true,
+      "repeat-delay":500,
+      "messages":[
+        ""l'm regular player",
+        "subscribe to kingsowrov!",
+        "l like to play minecraft!"
+      ]
+    },
+    "chat-log":true,
+    "auto-reconnect":true,
+    "auto-reconnect-delay":2000,
+    "max-reconnect-delay":20000,
+    "periodic-rejoin":{
+      "enabled":false,
+      "min-interval":20,
+      "max-interval":60
+    }
+  },
+  "movement":{
+    "enabled":true,
+    "circle-walk":{
+      "enabled":true,
+      "radius":4,
+      "speed":3000
+    },
+    "look-around":{
+      "enabled":true,
+      "interval":5000
+    },
+    "random-jump":{
+      "enabled":true,
+      "interval":10000
+    }
+  },
+  "modules":{
+    "avoidMobs":true
+    "combat":true,
+    "beds":true,
+    "chat":true,
+    "console-commands":true
+  },
+  "combat":{
+    "attack-mobs":true,
+    "auto-eat":true,
+  },
+  "beds":{
+    "pick-up-day":true,
+    "place-night":true
+  },
+  "discord":{
+    "enabled":true,
+    "webhookUrl:
+    "https://discord.com/api/webhooks
+    /1472567640521183243/7DzSlaCMS_9
+    -5DjzrlAuP9Tdj7Y3yAP6BHg3sckzhaRFd
+    Vk8ctWBlhOc7l8l5xC6Nqm3",
+    "events":{
+      "connect":true,
+      "disconnect":true,
+      "chat":false
+    }
+  },
+  "chat":{
+    "respond":true
+  }
+}    
